@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <!-- This file contains definitions of shelves, toolbars, and tools.
+ It should not be hand-edited when it is being used by the application.
+ Note, that two definitions of the same element are not allowed in
+ a single file. -->
+
+  <tool name="inst_cs_toolkit" label="Install CS Toolkit" icon="">
+    <script scriptType="python"><![CDATA[hou.hda.installFile('houdini-cs-toolkit_path/cs_simpleStar.otl')]]></script>
+  </tool>
+
+  <toolshelf name="cs_toolkit_shelf" label="CS Toolkit">
+    <memberTool name="inst_cs_toolkit"/>
+  </toolshelf>
+</shelfDocument>
