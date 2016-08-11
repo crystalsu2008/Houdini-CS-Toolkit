@@ -6,7 +6,7 @@
  a single file. -->
 
   <tool name="inst_cs_toolkit" label="Install CS-Toolkit" icon="">
-    <script scriptType="python"><![CDATA[hou.hda.installFile('houdini-cs-toolkit_path/cs_simpleStar.otl')]]></script>
+    <script scriptType="python"><![CDATA[hou.hda.installFile('__CS-TOOLKIT_INSTALL_PATH__/cs_simpleStar.otl')]]></script>
   </tool>
 
   <toolshelf name="cs_toolkit_shelf" label="CS-Toolkit">
