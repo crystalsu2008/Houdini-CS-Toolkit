@@ -2,7 +2,7 @@
 This is a practice of Houdini Digital Asset study.
 
 __Procedure Name__ : Houdini-CS-Toolkit<br>
-__Update__ : August 9, 2016<br>
+__Update__ : August 12, 2016<br>
 __Author__ : Chris Su<br>
 __Contact__ : crystalsu2008@gmail.com<br>
 
